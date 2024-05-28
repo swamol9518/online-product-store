@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home Page</title>
+<!-- Bootstrap CSS -->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<!-- FontAwesome CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+<style>
+  body {
+    background-image: url("https://qph.cf2.quoracdn.net/main-qimg-a4922654b6aa83900938364d72f713e2");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .navbar-brand {
+    font-weight: bold;
+    color: #333;
+  }
+  .navbar {
+    background-color: rgba(255,255,255,0.7); /* Added transparency for better visibility */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  .navbar-nav .nav-link {
+    margin: 0 10px;
+    color: #333;
+  }
+  .nav-link {
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 10px 20px;
+  }
+  .nav-link.customer-login {
+    background-color: #007bff;
+    color: #fff;
+  }
+  .nav-link.add-customer {
+    background-color: #28a745;
+    color: #fff;
+  }
+  .nav-link.admin-login {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  .nav-link.about-product {
+    background-color: chocolate;
+    color: #fff;
+  }
+  .navbar-toggler {
+    border-color: #333;
+  }
+  .navbar-toggler-icon {
+    background-color: #333;
+  }
+  .jumbotron {
+    background-color: rgba(255,255,255,0.7); /* Added transparency for better visibility */
+    color: #333;
+    text-align: center;
+    padding: 100px 0;
+    margin-bottom: 0;
+  }
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#"><b>Welcome, Online Product Store</b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link customer-login" href="CustomerLogin.html"><i class="fas fa-user"></i> Customer Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link add-customer" href="AddCustomerLogin.html"><i class="fas fa-user-plus"></i> Add Customer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link admin-login" href="AdminLogin.html"><i class="fas fa-user-shield"></i> Admin Login</a>
+        </li>
+        <li class="nav-item">
+<a class="nav-link about-product" href="About.html"> <i class="fas fa-info-circle"></i> About</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <h1>Welcome to Our Online Product Store</h1>
+  <p>Discover amazing products and enjoy hassle-free shopping experience!</p>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
